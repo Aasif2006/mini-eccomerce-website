@@ -224,7 +224,7 @@ input[type="range"] {
 }
 
 /* Media Queries for Responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 840px) {
   .player-container {
     flex-direction: column; /* Stack elements on smaller screens */
     padding: 10px; /* Reduce padding */

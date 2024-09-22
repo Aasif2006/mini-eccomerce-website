@@ -25,7 +25,6 @@ function Flip() {
                     method="post"
                     noValidate
                   >
-                    <input type="text" name="EMAIL" className="form-control memail" placeholder="Email" />
                     <button className="btn btn_get btn_get_two" type="submit">Subscribe</button>
                     <p className="mchimp-errmessage" style={{ display: 'none' }}></p>
                     <p className="mchimp-sucmessage" style={{ display: 'none' }}></p>

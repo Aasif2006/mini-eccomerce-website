@@ -23,7 +23,7 @@ function Navbar({ cartCount }) { // Accept cartCount as a prop
       <div className="navbar">
         <div className="nav">
           <div className="logo">
-            <h2>My Portfolio</h2>
+            <h2>Ashif khan</h2>
           </div>
           <div className={`nav-link ${state ? 'open' : ""}`}>
             <Link to="/" onClick={closeMenu}>HOME</Link>

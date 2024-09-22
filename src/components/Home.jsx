@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import Card from './Card';
-import Scroll from './Scroll';
+// import Scroll from './Scroll';
 // import Flip from './Flip';
 
 
@@ -37,7 +37,7 @@ function Home() {
 
 <Card/>
 {/* <Flip/> */}
-<Scroll/>
+{/* <Scroll/> */}
 
     </>
   );
