@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import Card from './Card';
+import Scroll from './Scroll';
 // import Flip from './Flip';
 
 
@@ -21,7 +22,7 @@ function Home() {
     <div className="main">
       <h1 >
         {' '}
-        <span style={{ fontWeight: 'bold', color: 'green' }}>{text}</span>
+        <span style={{ fontWeight: 'bold', color: 'orengered' }}>{text}</span>
         <span style={{ color: 'red' }}>
           <Cursor cursorStyle='|' />
         </span>
@@ -33,8 +34,10 @@ function Home() {
      
 </div>
 
+
 <Card/>
 {/* <Flip/> */}
+<Scroll/>
 
     </>
   );
